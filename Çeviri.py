@@ -15,6 +15,7 @@ time.sleep(3)
 
 son_deger = ""
 while True:
+    time.sleep(0.3)
     translates = Translator()
     kopyalanan_deger = pyperclip.paste()
     if kopyalanan_deger != son_deger:
